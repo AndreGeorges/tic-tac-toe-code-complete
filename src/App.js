@@ -74,7 +74,7 @@ function App() {
         <Board board={board} 
               onClick={gameOver ? resetBoard : handleBoxClick}/>
         <ResetButton resetBoard={resetBoard}/>
-     
+     <p>i changed this on feature1 branch</p>
     </div>
   );
 }
