@@ -62,7 +62,7 @@ function App() {
       }
     }
   }
-
+// this is the function to reset the game on feature2 branch
   const resetBoard = () => {
     setGameOver(false);
     setBoard(Array(9).fill(null))
